@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "item": "pablos_mod:pablos_item" },
+    "title": "Rey de la Minería",
+    "description": "Alcanza el nivel 150 de minería",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "temp": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

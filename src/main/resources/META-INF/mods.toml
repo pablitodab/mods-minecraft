@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[51,)"
+license="MIT"
+
+[[mods]]
+modId="pablos_mod"
+version="1.0.0"
+displayName="Pablo's"
+authors="Pablo de Abajo"
+description='''
+Mi primer mod de prueba con Forge.
+'''
+
+[[dependencies.pablos_mod]]
+modId="forge"
+mandatory=true
+versionRange="[51,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pablos_mod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,1.22)"
+ordering="NONE"
+side="BOTH"
