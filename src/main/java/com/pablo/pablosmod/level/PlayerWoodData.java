@@ -2,10 +2,10 @@ package com.pablo.pablosmod.level;
 
 public class PlayerWoodData {
 
-    private int woodLevel = 100;
-    private int woodXp = 30;
-    private static final int BASE_XP_PER_LEVEL = 1;
-    private static final int XP_INCREMENT = 1;
+    private int woodLevel = 0;
+    private int woodXp = 0;
+    private static final int BASE_XP_PER_LEVEL = 100;
+    private static final int XP_INCREMENT = 30;
 
     public void addXp(int amount) {
         woodXp += amount;

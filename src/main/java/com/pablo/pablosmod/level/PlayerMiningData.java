@@ -2,10 +2,10 @@ package com.pablo.pablosmod.level;
 
 public class PlayerMiningData {
 
-    private int miningLevel = 100;
-    private int miningXp = 20;
-    private static final int BASE_XP_PER_LEVEL = 1;
-    private static final int XP_INCREMENT = 1;
+    private int miningLevel = 0;
+    private int miningXp = 0;
+    private static final int BASE_XP_PER_LEVEL = 100;
+    private static final int XP_INCREMENT = 20;
 
     public void addXp(int amount) {
         miningXp += amount;

@@ -2,10 +2,10 @@ package com.pablo.pablosmod.level;
 
 public class PlayerAgilityData {
 
-    private int agilityLevel = 500;
-    private int agilityXp = 200;
-    private static final int BASE_XP_PER_LEVEL = 1;
-    private static final int XP_INCREMENT = 1;
+    private int agilityLevel = 0;
+    private int agilityXp = 0;
+    private static final int BASE_XP_PER_LEVEL = 500;
+    private static final int XP_INCREMENT = 200;
 
     public void addXp(int amount) {
         agilityXp += amount;

@@ -1,10 +1,10 @@
 package com.pablo.pablosmod.level;
 
 public class PlayerCombatData {
-    private int combatLevel = 100;
-    private int combatXp = 20;
-    private static final int BASE_XP_PER_LEVEL = 1;
-    private static final int XP_INCREMENT = 1;
+    private int combatLevel = 0;
+    private int combatXp = 0;
+    private static final int BASE_XP_PER_LEVEL = 100;
+    private static final int XP_INCREMENT = 20;
 
     public void addXp(int amount) {
         combatXp += amount;

@@ -1,6 +1,0 @@
-{
-  "parent": "Minecraft:item/generated",
-  "textures": {
-    "layer0": "Pablo's_mod:item/pablos_item"
-  }
-}

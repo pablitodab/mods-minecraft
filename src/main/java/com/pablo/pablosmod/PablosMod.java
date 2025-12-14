@@ -12,7 +12,6 @@ public class PablosMod {
     public PablosMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        // Registrar ítems
         ModItems.register(modEventBus);
     }
 }

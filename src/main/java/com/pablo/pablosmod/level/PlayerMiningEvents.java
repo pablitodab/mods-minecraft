@@ -50,6 +50,17 @@ public class PlayerMiningEvents {
                             "§e[Eficiencia: " + String.format("%.1f", effBonus * 100) + "% | " +
                                     "Fortuna: " + String.format("%.1f", fortBonus * 100) + "%]"),
                     false);
+
+            if (data.getMiningLevel() == 150) {
+                player.getInventory().add(new net.minecraft.world.item.ItemStack(
+                        com.pablo.pablosmod.ModItems.PABLOS_PICKAXE.get()
+                ));
+                player.displayClientMessage(
+                        net.minecraft.network.chat.Component.literal("§b¡Has recibido el Pico de Pablo por alcanzar nivel 150!"),
+                        false
+                );
+            }
+
         }
 
         int xpTotal = data.getTotalXpForNextLevel();
